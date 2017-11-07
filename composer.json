@@ -1,0 +1,21 @@
+{
+    "name": "tkaratug/titandb-2",
+    "description": "A lightweight and efficient SQL query builder library",
+    "keywords": ["php", "pdo", "mysql", "sql", "pgsql", "querybuilder"],
+    "homepage": "https://github.com/tkaratug/titandb-2",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Turan Karatuğ",
+            "email": "tkaratug@hotmail.com.tr",
+            "homepage": "http://www.turankaratug.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"Titan\\": "src/Titan"}
+    }
+}
